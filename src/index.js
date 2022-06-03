@@ -208,3 +208,6 @@ const objA = {
 const objB = JSON.parse(JSON.stringify(objA));
 console.log(objB);
 
+var i2 =50; i2 %=2;
+console.log(i2);
+

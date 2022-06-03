@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Les collections live vs statiques</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h3>
+      Je suis le noeud ciblé
+    </h3>
+    <script>
+      const h3 = document.querySelector("h3");
+      h3.prepend("Je suis avant le début du contenu =>");
+      h3.append("<= Je suis après le début du contenu");
+
+      h3.before("Je suis avant le noeud");
+      h3.after("Je suis après le noeud");
+    </script>
+  </body>
+</html>
